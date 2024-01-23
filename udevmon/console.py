@@ -8,7 +8,7 @@ from pathlib import Path
 import time
 import sh
 
-mon_devs = set(["1366:1051"])
+mon_devs = set(["1366:1051", "10c4:ea60", "1366:1015"])
 
 USB_PAT =  re.compile(r"^/dev/bus/usb/(?P<bus>\d+)/(?P<device>\d+)$")
 
